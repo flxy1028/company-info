@@ -25,11 +25,10 @@ export const routes = [
     component: LanguageSchoolIntro,
     name: 'LanguageSchoolIntro',
   },
-  { path: '/related-news', component: RelatedNews, name: 'RelatedNews' },
-
   {
     path: '/successful-case',
     component: SuccessfulCase,
     name: 'SuccessfulCase',
   },
+  { path: '/related-news', component: RelatedNews, name: 'RelatedNews' },
 ];
