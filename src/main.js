@@ -7,7 +7,8 @@ import { routes } from './router';
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes,
+  base: '/company-info/',
+  routes
 });
 const app = createApp(App);
 app.use(router);

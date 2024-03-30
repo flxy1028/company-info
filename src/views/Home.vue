@@ -2,20 +2,22 @@
   <Row :gutter="32">
     <Col :sm="24" :xs="24" :md="12" :lg="12" :xl="12">
       <div class="flex flex-col items-center mb-8">
-        <span class="text-2xl p-6"> 菲律宾留学</span>
+        <span class="text-2xl font-bold text-black p-6"> 菲律宾留学</span>
         <img :src="flbImg" />
       </div>
     </Col>
     <Col :sm="24" :xs="24" :md="12" :lg="12" :xl="12">
       <div class="flex flex-col items-center mb-8">
-        <span class="text-2xl p-6"> 日本留学</span>
+        <span class="text-2xl font-bold text-black p-6"> 日本留学</span>
         <img :src="rbImg" />
       </div>
     </Col>
   </Row>
   <Row :gutter="[24, 24]">
     <Col :md="12" :lg="12" :xl="12" :sm="24" :xs="24">
-      <h3 class="text-2xl px-8 pb-8">菲律宾：沉浸式英语学习</h3>
+      <h3 class="text-2xl font-bold text-black px-8 pb-8">
+        菲律宾：沉浸式英语学习
+      </h3>
       <p class="text-base indent-6 pb-4">
         可能有些人会对菲律宾留学感到惊讶。但实际上，由于历史上曾经属于美国的统治，菲律宾广泛使用英语作为公用语言。因此，许多菲律宾人都能流利地讲英语，在亚洲他们的英语发音被认为是最清晰的。在菲律宾的语言学校，老师通常是受过良好教育、拥有大学学位的菲律宾人，相比于美国或英国等传统的留学国家，菲律宾的留学成本要低得多。
       </p>
@@ -27,7 +29,9 @@
       ><img :src="flbMapImg"
     /></Col>
     <Col :md="12" :lg="12" :xl="12" :sm="24" :xs="24">
-      <h3 class="text-2xl px-8 pb-8">日本留学：樱花和风二次元</h3>
+      <h3 class="text-2xl font-bold text-black px-8 pb-8">
+        日本留学：樱花和风二次元
+      </h3>
       <p class="text-base indent-6 pb-4">
         作为世界上科技和文化并重的国家，一直是国际学生追求高质量教育的热门目的地。以独特的教育体系、历史悠久的大学和领先的科技研究而闻名，日本提供了一系列从语言学习到高等教育的留学机会。
       </p>

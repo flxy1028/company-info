@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-16 w-screen bg-gray-100 fixed top-0 left-0 flex justify-center cursor-pointer text-lg z-50"
+    class="h-16 w-screen bg-gray-100 fixed top-0 left-0 flex justify-center cursor-pointer text-lg font-bold text-black z-50"
   >
     <img class="h-9 self-center absolute left-6" :src="iyalalogo" alt="" />
     <template v-if="!isMobile">
@@ -74,7 +74,9 @@
           @click="handleMenuClick"
         ></Menu>
       </template>
-      <UnorderedListOutlined class="absolute top-3 right-6 text-2xl" />
+      <UnorderedListOutlined
+        class="absolute top-3 right-6 text-2xl font-bold text-black"
+      />
     </Popover>
   </div>
   <div class="h-16 w-full bg-gray-100"></div>
@@ -108,7 +110,9 @@
           </div>
         </Col>
         <Col :md="12" :lg="8" :xl="8" :sm="24" :xs="24">
-          <div class="border-gray-300 border-b text-xl">联系我们</div>
+          <div class="border-gray-300 border-b text-xl font-bold text-black">
+            联系我们
+          </div>
           <div class="py-4 border-gray-300 border-b">
             你可以通过以下方式来联系我们，或者了解更多的信息！
           </div>
