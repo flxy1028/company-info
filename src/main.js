@@ -6,7 +6,7 @@ import App from './App.vue';
 import { routes } from './router';
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory('/company-info/'),
   routes
 });
 const app = createApp(App);
