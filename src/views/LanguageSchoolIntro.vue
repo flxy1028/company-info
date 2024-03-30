@@ -18,9 +18,7 @@
   <Row :gutter="[24, 24]">
     <Col :md="12" :lg="12" :xl="12" :sm="24" :xs="24">
       <div class="border border-gray-300 h-full rounded-md">
-        <div
-          class="text-xl font-bold text-black text-center p-4 bg-blue-400 text-white"
-        >
+        <div class="text-xl font-bold text-center p-4 bg-blue-400 text-white">
           千驮谷日本语学校
         </div>
         <img class="w-full" :src="img13" alt="" />
@@ -31,9 +29,7 @@
     </Col>
     <Col :md="12" :lg="12" :xl="12" :sm="24" :xs="24">
       <div class="border border-gray-300 h-full rounded-md">
-        <div
-          class="text-xl font-bold text-black text-center p-4 bg-blue-400 text-white"
-        >
+        <div class="text-xl font-bold text-center p-4 bg-blue-400 text-white">
           ISI日本语学校
         </div>
         <img class="w-full" :src="img14" alt="" />
@@ -45,9 +41,7 @@
     </Col>
     <Col :md="12" :lg="12" :xl="12" :sm="24" :xs="24">
       <div class="border border-gray-300 h-full rounded-md">
-        <div
-          class="text-xl font-bold text-black text-center p-4 bg-blue-400 text-white"
-        >
+        <div class="text-xl font-bold text-center p-4 bg-blue-400 text-white">
           东京中央日本语学校
         </div>
         <img class="w-full" :src="img15" alt="" />
