@@ -35,7 +35,7 @@
   </Row>
   <div class="text-xl pb-4 pt-6 border-b border-gray-300">黄同学</div>
   <Row :gutter="[24, 24]">
-    <Col :md="12" :lg="12" :xl="12" :sm="24" :xs="24">
+    <Col :md="19" :lg="19" :xl="19" :sm="24" :xs="24">
       <p class="text-lg pt-4 pb-2">背景</p>
       <p class="text-base">
         1.正值叛逆期的他天天去网吧，成绩便从此一落千丈。<br />
@@ -47,8 +47,8 @@
         2.通过读报，黄子涵不但积累了大量的词汇，也打开了写作的思路，他的写作能力在短时间内得到了大幅提升。
       </p>
     </Col>
-    <Col :md="12" :lg="12" :xl="12" :sm="24" :xs="24">
-      <img class="mt-6" :src="img10" alt="" />
+    <Col :md="5" :lg="5" :xl="5" :sm="24" :xs="24">
+      <img class="mt-6 w-full" :src="img11" alt="" />
     </Col>
   </Row>
 </template>
