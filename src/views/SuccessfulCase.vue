@@ -51,10 +51,15 @@
       <img class="mt-6 w-full" :src="img11" alt="" />
     </Col>
   </Row>
+  <div class="text-2xl py-4">大学备考计划</div>
+  <div class="flex justify-center">
+    <img :src="img12" alt="" />
+  </div>
 </template>
 <script setup>
 import img10 from '@/assets/10.png';
 import img11 from '@/assets/11.png';
+import img12 from '@/assets/12.png';
 import { Row, Col } from 'ant-design-vue';
 
 const data = [
@@ -63,6 +68,6 @@ const data = [
   { name: '王同学', school: '早稻田大学', part: '人间心理学部合格' },
   { name: '王同学', school: '早稻田大学', part: '人间心理学部合格' },
   { name: '王同学', school: '早稻田大学', part: '人间心理学部合格' },
-  { name: '王同学', school: '早稻田大学', part: '人间心理学部合格' },
+  { name: '王同学', school: '早稻田大学', part: '人间心理学部合格' }
 ];
 </script>
